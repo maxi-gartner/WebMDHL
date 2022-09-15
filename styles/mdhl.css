@@ -1,0 +1,92 @@
+*{
+    margin: 2%;
+    padding: 0;
+    
+}
+html{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: black;
+    scroll-behavior: smooth; /* suavizar un poco la transiciones*/
+}
+
+.contenedor{
+    width: 1200px;
+    height: 1000px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    position: relative;
+}
+
+.header{
+    height: 13rem;
+    background-color: black;
+    margin: 0em;
+    padding: 1em;
+    position: relative;
+    background-image: url(../assets/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;/*ajustar imagen*/
+    background-position-y: 70%;
+}
+.nav{
+    height: 2rem;
+    background-color: red;
+    margin: 0em;
+    padding: 1em;
+    position: relative;
+}
+
+.conteiner{
+    height: 22rem;
+    background-color: orange;
+    margin: 0em;
+    position: relative;
+}
+.section{
+    float: left;
+    height: 22rem;
+    width: 20%;
+    background-color: yellow;
+    margin-top: 0em;
+    margin-left: 1%;
+    position: relative;
+}
+.info{
+    float: right;
+    height: 22rem;
+    width: 74%;
+    background-color: blue;
+    margin-top: 0em;
+    margin-left: 1%;
+    position: relative;
+}
+.logo{
+    position: relative;
+    float: right;
+    height: 10em;
+    width: 10rem;
+    margin-top: 0em;
+    margin-right: 8em;
+    float: right;
+    bottom: 31.2rem;
+    background-image: url(../assets/logo_mighty_ducks-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;/*ajustar imagen*/
+    background-position-y: 70%;
+    
+}
+ul> li > a:hover{
+    background-color: turquoise;
+    width: 90%;
+    height: 20%;
+    margin: 1em;
+    border-radius: 1em;
+    cursor: pointer;
+    border-radius: 16px;
+    transform: scale(1.25);
+    transition: ease-in 100ms;
+    transition: cubic-bezier(250ms);
+}

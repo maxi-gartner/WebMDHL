@@ -4,14 +4,14 @@
 
 .header{
     height: 90vh;
-    width: 82.9vw;
-    position: absolute;
+    width: 89vw;
+    position: relative;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .img{ 
-    height: 40vh;
+    height: 42vh;
     width: 100%;
     margin: 0%;
     position: relative;
@@ -25,22 +25,22 @@
 .navegation{
     position: relative;
     margin: 0%;
-    bottom: 3.2vh;
-    height: 7vh;
+    bottom: 3.4vh;
+    height: 3.5vh;
     background-color: black;
     color:white;
-    line-height: 130%;
+    line-height: 160%;
     font-weight: bold;
     text-align: center;
-    font-size: 37px;
+    font-size: 2vw;
+    font-size: 2vh;
 }
 
 
 .titulo{
     text-align: left;
     vertical-align: auto;
-    font-size: 2.7vw;
-    text-shadow: 0 0 2px white;
+    font-size: 4vw;
 }
 
 .conteiner{
@@ -51,49 +51,52 @@
 
 }
 
-.section{
+div > ul{
     float: left;
     height: 100%;
     width: 20%;
     margin: 0%;
     position: relative;
 }
+div > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 div > ul > li > a{
-    font-size: 25px;
-    padding-bottom: 10%;
-    padding-top: 10%;
     display: flex;
-    margin-bottom: 2vw;
+    font-size: 1.8vw;
+    font-size: 1.8vh;
     cursor: pointer;
     color: black;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-bottom: 5vh;
+    font-weight: bold;
+    margin-right: 0%;
 }
+
+
 
 .info{
     float: right;
-    height: 100%;
-    width: 80%;
+    height: 100vh;
+    width: 78%;
     margin: 0%;
+    font-size: 2vw;
+    font-size: 2vh;
 
 }
 
 .logo{
-    position: relative;
-    height: 25vh;
-    width: 25vw;
-    float: right;
-    bottom: 31em;
-    left: 4vh;
+    position: absolute;
+    margin: 0%;
+    height: 40vh;
+    width: 96%;
+    bottom: 31%;
     background-image: url(../assets/logo_mighty_ducks-01.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;/*ajustar imagen*/
-    background-position-y: 70%;
-
-}
-
-
-ul> li > a:hover{
-
-    transition: cubic-bezier(250ms);
+    background-position: right;
+    background-size: 20%;/*ajustar imagen*/
 }

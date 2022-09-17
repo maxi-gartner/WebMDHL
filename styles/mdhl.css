@@ -1,92 +1,99 @@
 *{
     margin: 2%;
-    padding: 0;
-    
-}
-html{
-    font-family: 'Poppins';
-    font-size: 16px;
-    color: black;
-    scroll-behavior: smooth; /* suavizar un poco la transiciones*/
-}
-
-.contenedor{
-    width: 1200px;
-    height: 1000px;
-    margin: 0.5em auto;
-    padding: 0.5em;
-    position: relative;
 }
 
 .header{
-    height: 13rem;
-    background-color: black;
-    margin: 0em;
-    padding: 1em;
+    height: 90vh;
+    width: 82.9vw;
+    position: absolute;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.img{ 
+    height: 40vh;
+    width: 100%;
+    margin: 0%;
     position: relative;
     background-image: url(../assets/design1_image1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;/*ajustar imagen*/
-    background-position-y: 70%;
+    background-position-y: 33%;
+    background-size: cover;/*ajustar imagen*/
 }
-.nav{
-    height: 2rem;
-    background-color: red;
-    margin: 0em;
-    padding: 1em;
+
+.navegation{
     position: relative;
+    margin: 0%;
+    bottom: 3.2vh;
+    height: 7vh;
+    background-color: black;
+    color:white;
+    line-height: 130%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 37px;
+}
+
+
+.titulo{
+    text-align: left;
+    vertical-align: auto;
+    font-size: 2.7vw;
+    text-shadow: 0 0 2px white;
 }
 
 .conteiner{
-    height: 22rem;
-    background-color: orange;
-    margin: 0em;
     position: relative;
+    margin: 0%;
+    padding: 0%;
+    height: 40vh;
+
 }
+
 .section{
     float: left;
-    height: 22rem;
+    height: 100%;
     width: 20%;
-    background-color: yellow;
-    margin-top: 0em;
-    margin-left: 1%;
+    margin: 0%;
     position: relative;
 }
+
+div > ul > li > a{
+    font-size: 25px;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: flex;
+    margin-bottom: 2vw;
+    cursor: pointer;
+    color: black;
+}
+
 .info{
     float: right;
-    height: 22rem;
-    width: 74%;
-    background-color: blue;
-    margin-top: 0em;
-    margin-left: 1%;
-    position: relative;
+    height: 100%;
+    width: 80%;
+    margin: 0%;
+
 }
+
 .logo{
     position: relative;
+    height: 25vh;
+    width: 25vw;
     float: right;
-    height: 10em;
-    width: 10rem;
-    margin-top: 0em;
-    margin-right: 8em;
-    float: right;
-    bottom: 31.2rem;
+    bottom: 31em;
+    left: 4vh;
     background-image: url(../assets/logo_mighty_ducks-01.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;/*ajustar imagen*/
     background-position-y: 70%;
-    
+
 }
+
+
 ul> li > a:hover{
-    background-color: turquoise;
-    width: 90%;
-    height: 20%;
-    margin: 1em;
-    border-radius: 1em;
-    cursor: pointer;
-    border-radius: 16px;
-    transform: scale(1.25);
-    transition: ease-in 100ms;
+
     transition: cubic-bezier(250ms);
 }

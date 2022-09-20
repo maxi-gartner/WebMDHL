@@ -47,8 +47,7 @@
     position: relative;
     margin: 0%;
     padding: 0%;
-    height: 40vh;
-
+    height: 31em;
 }
 
 div > ul{
@@ -57,8 +56,6 @@ div > ul{
     width: 20%;
     margin: 0%;
     position: relative;
-}
-div > ul{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -81,22 +78,21 @@ div > ul > li > a{
 
 .info{
     float: right;
-    height: 100vh;
+    height:15em;
     width: 78%;
     margin: 0%;
-    font-size: 2vw;
-    font-size: 2vh;
-
+    font-size: 90%;
 }
 
 .logo{
     position: absolute;
     margin: 0%;
-    height: 40vh;
-    width: 96%;
-    bottom: 31%;
+    left: 70vw;
+    height: 50vh;
+    width: 18%;
+    bottom: 25vh;
     background-image: url(../assets/logo_mighty_ducks-01.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 20%;/*ajustar imagen*/
+    background-size: 100%;/*ajustar imagen*/
 }

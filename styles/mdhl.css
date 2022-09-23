@@ -94,6 +94,8 @@
     
     .point3{    
         padding: 0;
+        list-style: inside;
+        list-style-type: lower-latin;
         }
         .font-bold{ 
             font-weight: bold;
@@ -111,7 +113,11 @@
         }
         .font-point3{
             font-weight: bold;
-            font-size: 15px;
+            font-size: 16px;
+
+        }
+        .margin-p3{
+            margin-top: 23px;
         }
         .text-point4{
             list-style: none;
@@ -132,9 +138,6 @@
         }
         .margin.sportsmanships{
             text-indent: pt;
-        }
-        .dates{
-            margin-top: 60vh;
         }
         td{
             margin: 5;
@@ -185,6 +188,7 @@
             
         }
         .subtitle2{
+            list-style: none;
             font-style: oblique;
             font-size: 17px;
             font-family: sans-serif;
